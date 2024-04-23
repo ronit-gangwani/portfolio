@@ -1,1 +1,322 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        .header{
+            width: 100%;
+            height:100%;
+            background-color: rgb(173, 230, 211);
+        }
+        nav{
+            padding: 2px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background-color:antiquewhite;
+            gap:2.3rem;
+            transition: background-color 0.3s;
+        }
+        nav ul li{
+            display: inline-block;
+            list-style: none;
+            margin: 20px;
+            align-items: left;
+            text-align: center;
+            padding : 0 20px 0 20px;
+        }        
+        nav ul li a{
+            text-decoration: none;
+            color: black;
+            font-weight: bolder;
+            align-items: left;  
+            text-align: center;
+            font-size: 20px;
+        }
+        nav ul li a:hover{
+            background-color: rgba(0, 0, 0, 0.607);
+            border-radius: 2px;
+            color: white;
+            cursor: pointer;
+        }
+        .body{
+            margin-left: 100px;
+            margin-top: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .body h1 {
+            font-size: 50px;
+            color: black;
+            margin-bottom: 20px;
+        }
+        .demo1 {
+            color: orange;
+            margin-bottom: 30px;
+        } 
+        .demo2 {
+            color: black;
+            line-height: 20px;
+        }
+        .button-lrn, .button-hire{
+            background: lightsalmon;
+            padding: 10px 12px;
+            text-decoration: none;
+            font-weight: bold;
+            color: whitesmoke;
+            display: inline-block;
+            margin: 30px 8px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            border: none;
+            letter-spacing: 1px;
+            cursor: pointer;
+            background-color: rgb(173, 230, 211);
+        }
+        .button-lrn:hover {
+            background-color: whitesmoke;
+            color: black;
+            cursor: pointer;
+            background-color: rgb(173, 230, 211);
+        }
+        span {
+            color: blue;
+        }
+        .image {
+            width: 25%;
+            height: 100%;
+            bottom: 0;
+            right: 100px;
+            right:20%;
+            background-color: rgb(173, 230, 211);
 
+        }
+        .image img {
+            height: 400px;
+            width:300px;
+            position:relative;
+            
+            border-radius: 5%;
+            right:40%;
+            overflow: hidden;
+            background-color: rgb(173, 230, 211);
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(173, 230, 211);
+            margin:2px;
+            padding-left: 10px;
+        }
+        .image2 {
+            max-width: 28%;
+            max-height:20%;
+            float: left;
+            background-color: rgb(173, 230, 211);
+        }
+  
+        .text1 {
+            font-size: 18px;
+            padding-left: 20px;
+            padding-top:1em;
+            padding-right: 10px;
+            float: left;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: rgb(173, 230, 211);
+        }
+        #section1{
+            padding-top: 5%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: rgb(173, 230, 211);
+        }
+        #section1 h2{
+            align-content: center;
+            align-self: center;
+            font-size: 300%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: rgb(173, 230, 211);
+        }
+        #section3{
+            padding-left: 40px;
+            padding-top:1em;
+            padding-right: 10px;
+            font-size: larger;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+        }
+        .list{
+            padding-top: 5%;
+            display: flex;
+            justify-content: space-around;
+        }
+        #section3 h2{
+            align-self: center;
+            font-size: 300%;
+        }
+        #section3{
+            background-color: rgb(173, 230, 211);
+            padding-top:5% ;
+            padding-bottom: 10%;
+        }
+        #contact{
+            padding-left: 40px;
+            padding-top:1em;
+            background-color: rgb(173, 230, 211);
+
+        }
+    </style>
+</head>
+<body>
+    <div class="header" id="section2">
+        <nav>
+            <ul>
+                <li><a href="#section2">HOME</a></li>
+                <li><a href="#section1">ABOUT</a></li>
+                <li><a href="#section3">ACHIEVEMENTS</a></li>
+                <li><a href="#contact">CONTACT ME</a></li>
+            </ul>
+        </nav>
+        <div class="body" >
+            <div>
+                <p class="demo1">GET EVERY SINGLE SOLUTION.</p>
+                <h1>Hi <br> This is Ronit <span>Gangwani.</span></h1>
+                <p class="demo2">Embarking on the journey of coding,  <br>I breathe life into ideas from inception to execution,<br>all while navigating the challenges and excitement of being a college student.<br> </p>
+                <button type="button" class="button-lrn">CONTACT ME</button>
+                <br><br><br><br><br><br><br><br>
+                <br>
+                <br>
+            </div>
+
+            <div class="image">   
+                <img src="portfolio.jpg" height="530px"> 
+            </div>   
+         </div>
+                 
+    </div>    
+    <hr>
+    <article>
+        <section id="section1"><h2>ABOUT ME</h2>
+            <br>
+            <br>
+            <div class="container">
+                <div class="image2"><img src="ronit.jpg" height="450px" ></div>
+                <div class="text1">
+                    <p>
+                        As a second-year Computer Science student at Vellore Institute of Technology,<br> my academic journey intertwines seamlessly with my unwavering passion for technology and innovation.<br> Fueled by a curiosity for unraveling complex algorithms and crafting efficient solutions, I find joy in the intricate dance between logic and creativity within the realm of coding.<br>
+                        In the vibrant ecosystem of VIT, I have not only honed my technical skills but also cultivated a deep appreciation for collaboration and teamwork. Whether it's a challenging coding project or a group assignment, I thrive in environments that encourage the exchange of ideas and foster collective growth.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </article>
+    <hr>
+
+    <article>
+        <section id="section3"><h2>ACHIEVEMENTS</h2>
+            <br>
+            <br>
+            <div class="box">
+                <ul type="square" class="list">
+                    <li>CURRENT MEMBER OF BRISA TOASTMASTERS VIT
+                        <ul>
+                            <li>Sergeant At Arms(July'23-Dec'23)</li>
+                            <li>Vice President Of Membership(Jan'24-Present)</li>
+                        </ul>
+                    </li>
+                    <li>Worked as a leader for Habitat for Humanity</li>
+                    <li>Programming:
+                        <ol>
+                            <li>Frontend Developer(HTML+CSS+Javascript)</li>
+                            <li>C++</li>
+                            <li>C</li>
+                            <li>Python</li>
+                            <li>JAVA</li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </article>
+
+    <hr>
+
+<section id="contact" class="add-padding border-top-color2">
+
+    <div class="container text-center">
+    
+    <div class="row">
+    
+        <div class="col-sm-6 col-md-5 text-right scrollimation fade-up d1">
+        <h1 class="big-text">Contact Me</h1>
+        <p class="lead">Software Engineer.<br>Experienced Manager. Entrepreneur.</p>
+        <p>Sinatra, Ruby on Rails, JavaScript, Node.js, Express.js, Backbone.js, Handlebars.js, jQuery, AJAX, HTML5, CSS3, SASS, SQL, APIs, Git, GitHub/Bitbucket, WordPress, Heroku, Responsive/Mobile Development.        
+        </div>
+
+
+        <form id="contact-form" class="col-sm-6 col-md-offset-1 scrollimation fade-left d3" action="contact.php" method="post" novalidate>
+        <div class="form-group">
+            <label class="control-label" for="contact-name">Name</label>
+            <div class="controls">
+            <input id="contact-name" name="contactName" placeholder="Your name" class="form-control requiredField" data-new-placeholder="Your name" type="text" data-error-empty="Please enter your name">
+            <i class="fa fa-user"></i>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label" for="contact-mail">Email</label>
+            <div class=" controls">
+            <input id="contact-mail" name="email" placeholder="Your email" class="form-control requiredField" data-new-placeholder="Your email" type="email" data-error-empty="Please enter your email" data-error-invalid="Invalid email address">
+            <i class="fa fa-envelope"></i>
+            </div>
+        </div> 
+        <div class="form-group">
+            <label class="control-label" for="contact-message">Message</label>
+            <div class="controls">
+            <textarea id="contact-message" name="comments"  placeholder="Your message" class="form-control requiredField" data-new-placeholder="Your message" rows="6" data-error-empty="Please enter your message"></textarea>
+            <i class="fa fa-comment"></i>
+            </div>
+        </div>
+        <p><button name="submit" type="submit" class="btn btn-color2 btn-block" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Message Sent"><i class="fa fa-paper-plane"></i>Send Message</button></p>
+        <input type="hidden" name="submitted" id="submitted" value="true" />
+        
+        </form><!-- End contact-form -->
+        
+    </div>
+    
+    </div>
+
+</section>
+</body>
+
+
+<footer id="main-footer" class="add-padding border-top-color2">
+
+    <div class="container">
+    
+    <ul class="social-links text-center">
+        
+       
+        <li><a href="https://www.linkedin.com/in/ronit-gangwani-6847521b0/" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a></li>
+    </ul>
+    
+    <p class="text-center">&copy; 2024 - Ronit Gangwani</p>
+    
+    </div>
+    
+</footer>
+
+
+
+</footer
